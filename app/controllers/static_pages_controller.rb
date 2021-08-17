@@ -4,4 +4,10 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def moment
+  end
+
+  def contact
+  end
 end

@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get '/moment', to: 'static_pages#moment'
   get '/contact', to: 'static_pages#contact'
   get '/signup', to: 'users#new'
+  resources :users
 end

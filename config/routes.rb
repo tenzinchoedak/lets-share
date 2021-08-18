@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get '/about', to: 'static_pages#about'
   get '/moment', to: 'static_pages#moment'
   get '/contact', to: 'static_pages#contact'
-  get '/signup', to: 'user#new'
+  get '/signup', to: 'users#new'
 end
